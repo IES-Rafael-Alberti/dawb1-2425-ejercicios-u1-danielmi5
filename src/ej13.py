@@ -2,6 +2,7 @@
 
 n = int(input("Introduce un número : "))
 m = int(input("Introduce otro número : "))
+
 while (m==0):
     print ("No se puede dividir por 0")
     m = int(input("Introduce otro número : "))

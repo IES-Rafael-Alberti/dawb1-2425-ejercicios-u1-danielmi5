@@ -4,7 +4,7 @@ numTelf1 = input("Introduce un numero de telefono con este formato (prefijo-núm
 numTelf2 = ""
 
 for i in numTelf1:
-    for i in range(3,13)
+    for i in range(3,13):
         numTelf2 = i + numTelf1
     
 print (numTelf2)

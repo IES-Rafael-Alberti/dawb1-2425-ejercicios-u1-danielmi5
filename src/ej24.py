@@ -5,5 +5,4 @@ for i in precio:
      if i == "." or i == ",":
         print ("\n"+"Número de céntimos: ", end="")
      else:
-        print (i, end="")    
-
+        print (i, end="")   

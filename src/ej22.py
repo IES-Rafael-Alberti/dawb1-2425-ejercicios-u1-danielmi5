@@ -2,10 +2,5 @@
 
 frase = input("Introduce una frase: ")
 vocal = str(input("Introduce una vocal: "))
+print(frase+(vocal.replace(vocal,vocal.upper())))
 
-while (vocal != "a" and vocal !="e" and vocal!="i" and vocal!="o" and vocal!="u"):
-    print ("No has introducido una vocal")
-    vocal = input("Introduce una vocal: ")
-    
-
-print (frase+str(vocal.upper()))

@@ -2,7 +2,5 @@
 
 name = input("Introduce tu nombre: ")
 num = int(input("Introduce un número: "))
-contador = 0
-while (contador<num):
-    print(name)
-    contador += 1
+
+print (name*num)
