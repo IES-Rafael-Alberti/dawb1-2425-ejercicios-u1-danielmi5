@@ -1,10 +1,4 @@
 #Los teléfonos de una empresa tienen el siguiente formato prefijo-número-extension donde el prefijo es el código del país +34, y la extensión tiene dos dígitos (por ejemplo +34-913724710-56). Escribir un programa que pregunte por un número de teléfono con este formato y muestre por pantalla el número de teléfono sin el prefijo y la extensión.
 
-numTelf1 = input("Introduce un numero de telefono con este formato (prefijo-número-extension): ")
-numTelf2 = ""
-
-for i in numTelf1:
-    for i in range(3,13):
-        numTelf2 = i + numTelf1
-    
-print (numTelf2)
+numTelf = input("Introduce un numero de telefono con este formato (prefijo-número-extension): ")
+print ("Número de teléfono: " + numTelf[4:13])
