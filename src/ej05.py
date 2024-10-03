@@ -2,4 +2,5 @@
 precioNoIVA = float(input("Escribe un precio: "))
 iva = float(input("Introduce el IVA (1-100): "))
 importe_IVA = (iva*precioNoIVA)/100
-print("El precio final con IVA es : " , precioNoIVA+importe_IVA)
+precioFinal = precioNoIVA+importe_IVA
+print("El precio final con IVA es : " , "{:.2f}".format(precioFinal))
