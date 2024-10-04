@@ -11,14 +11,18 @@ if num1 == num2:
 elif num1>num2:
     menor = num2
     mayor = num1
+    longitud = mayor - menor
+    print("El número menor es el ",menor," y entre ellos ellos existen ",longitud," números enteros")
 else:
     menor = num1
     mayor = num2
+    longitud = mayor - menor
+    print("El número menor es el ",menor," y entre ellos ellos existen ",longitud," números enteros")
 
-longitud = mayor - menor
 
 
-print("El número menor es el menor] y entre ellos ellos existen {longitud} números enteros")
+
+
 
          
 
