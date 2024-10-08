@@ -2,3 +2,7 @@
 def importe_total(horas,coste):
     return horas*coste
 
+def main():
+    return
+if __name__ == "__main__":
+    main()
