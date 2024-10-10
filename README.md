@@ -24,6 +24,7 @@ La actividad consiste en resolver varios ejercicios básicos de introducción al
    - [P1.2c - Soluciona estos problemas](info/p1.2c_soluciona_estos_problemas.md)
    - [P1.2d - Construye funciones](info/p1.2d_construye_funciones.md)
    - [P1.2e - Primeras pruebas unitarias](info/p1.2e_pruebas_unitarias.md)
+   - [EXTRA - ejercicios OPCIONALES](info/p1.2f_ejercicios_opcionales.md)
 3. Crear un archivo Python para cada ejercicio y organizar los archivos según la estructura solicitada.
 4. La nomenclatura de los programas será `ej01.py` ... `ejNN.py`. Dichos programas deben ubicarse en la carpeta `src`.
 5. Las pruebas unitarias se almacenarán en la carpeta `tests` con la nomenclatura `test_ejXX.py`.
@@ -38,6 +39,14 @@ La actividad consiste en resolver varios ejercicios básicos de introducción al
 ### Evaluación y calificación
 
 **RA y CE evaluados**: 
+
+- RA1: Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático.
+   - CE1.1: Relaciona los programas con los componentes del sistema informático, como memoria, procesador, periféricos.
+   - CE1.2: Clasifica los lenguajes de programación y explica las diferencias entre código fuente, objeto y ejecutable.
+   - 
+- RA2: Implementa soluciones de software utilizando herramientas y lenguajes de programación.
+   - CE2.1: Emplea herramientas para generar, ejecutar y depurar programas.
+   - CE2.2: Utiliza correctamente traductores de lenguajes (compiladores, intérpretes).
 
 **Conlleva presentación**: NO
 
