@@ -8,7 +8,7 @@ if __name__ == "__main__":
   main()
   
 
-def covertir_temp():
+def convertir_temp():
   farenheit = main()
   celsius = (farenheit-32)/1.8
   cadena = ("{:.2f}".format(celsius) + " °C" + " (""{:.2f}".format(farenheit)+ " °F)")
