@@ -6,4 +6,4 @@ while (n<0):
     print("ERROR")
     n = int(input("Introduce n (entero positivo): "))
 
-print ("La suma es: " + str((n*(n+1))/2))
+print ("La suma es: " ,int((n*(n+1))/2))

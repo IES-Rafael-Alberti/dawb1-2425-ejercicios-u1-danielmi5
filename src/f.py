@@ -13,6 +13,8 @@ def comprobar_entero(cadena):
 
     return valor
        
+def hola(x):
+    assert x>0, "Hola, numero equivocado"
 
 
 
