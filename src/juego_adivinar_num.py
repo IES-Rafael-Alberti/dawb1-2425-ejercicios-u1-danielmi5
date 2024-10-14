@@ -90,6 +90,7 @@ def comprobar_num (num, random, intentos):
   
 def main():
   print("Juego adivinar número (1-100)")
+  print("🔥: El número esta a menos de 10 números   ||   🧊: El número esta a más de 10 números "  )
   print("""Dificultad:
   1: Fácil (10 Intentos)
   2: Normal (5 intentos)
@@ -97,7 +98,7 @@ def main():
   numDif = (input("Elige dificultad: ")).strip()
   num_dificultad = comprobar_entero_dificultad(numDif)
   intento = dificultad(num_dificultad)
-  num = introduce_num ("Adivina el número: ")
+  num = introduce_num ("Adivina el número: ").replace(" ","")
   num = comprobar_entero_num (num)
   random = numRandom()
   
