@@ -7,6 +7,7 @@ num = int(input("Introduce un número: "))
 incremento = int(input("Introduce un incremento: "))
 while incremento < 0:
     incremento = input("ERROR || Introduce el incremento (>0): ")
+
 totalSerie= int(input("Introduce un total de la serie: "))
 while totalSerie < 0:
     totalSerie = input("ERROR || Introduce el total de la serie (>0): ")
@@ -20,8 +21,6 @@ if (num < 0):
         else: 
             print(str(num) + "..", end="")
             num += incremento
-
-
 else:
     while num <= totalSerie:
         if num > (totalSerie - incremento) and num<=totalSerie:
