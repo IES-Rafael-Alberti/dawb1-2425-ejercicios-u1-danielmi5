@@ -4,7 +4,7 @@ from src.ej01_def import saludo
 @pytest.mark.parametrize(
     "nombre",
     [
-        (1),
+        ("Alejandro"),
         ("Daniel"),
         ("San")
     ]

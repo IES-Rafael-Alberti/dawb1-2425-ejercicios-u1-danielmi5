@@ -23,7 +23,7 @@ def main():
   print ("Introduce un número:")
   num = input("").replace(" ","")
   num = comprobar_num(num)
-  print ("La secuencia de Fibonacci es:",fibonacci(num))
+  print ("La secuencia de Fibonacci es: ",fibonacci(num))
   
   
 
