@@ -12,6 +12,8 @@ if __name__ == "__main__":
 def calcula_IVA(precio_sin_IVA, tipo_IVA):
   precio_con_IVA = (tipo_IVA/100 + 1)*precio_sin_IVA
   print ("El precio con IVA es:" ,precio_con_IVA)
+
+  # return puesto para que funcione el test
   return precio_con_IVA
   
   
