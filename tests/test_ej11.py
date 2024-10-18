@@ -1,5 +1,5 @@
 import pytest 
-from src.ej11_def import calcula
+from src.ej11_def import calcula_IVA
 # Código modificado (He quitado la conversión a str)
 
 @pytest.mark.parametrize(
@@ -11,4 +11,4 @@ from src.ej11_def import calcula
     ]
 )
 def test_calcula_params(n, suma):
-    assert calcula(n) == suma
+    assert calcula_IVA(n) == suma
