@@ -69,14 +69,14 @@ def comprobar_num (num, random, intentos):
   while (num != random and intentos > 0):
     if num > random:
       if num < random + 10:
-        print ("No, el número es menor (🔥🔥)")
+        print ("No, el número es menor (🔥🔥🔥)")
       else: 
-        print ("No, el número es menor (🧊🧊)")
+        print ("No, el número es menor (🧊🧊🧊)")
     if num < random:
       if num > random - 10:
-        print ("No, el número es mayor (🔥🔥)")
+        print ("No, el número es mayor (🔥🔥🔥)")
       else: 
-        print ("No, el número es mayor (🧊🧊)")
+        print ("No, el número es mayor (🧊🧊🧊)")
     if intentos > 1:
       print("Te quedan", intentos , "intentos: ", end="")
     else:
