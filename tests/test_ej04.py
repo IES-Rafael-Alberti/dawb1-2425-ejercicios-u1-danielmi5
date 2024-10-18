@@ -1,6 +1,6 @@
 import pytest 
 from src.ej04_def import convertir_temp
-# Código modificado para que pueda funcionar el test recibiendo datos
+#  Código modificado para que pueda funcionar el test recibiendo datos (sin input) --> Si en el código original se elimina el input funcina el test.
 
 @pytest.mark.parametrize(
     "farenheit, celsius",
